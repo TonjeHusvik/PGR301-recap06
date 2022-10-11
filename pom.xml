@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.example</groupId>
-    <artifactId>PGR301-recap06</artifactId>
+    <artifactId>PGR301-recap07</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>PGR301-recap06</name>
-    <description>PGR301-recap06</description>
+    <name>PGR301-recap07</name>
+    <description>PGR301-recap07</description>
     <properties>
         <java.version>11</java.version>
         <kotlin.version>1.6.21</kotlin.version>

@@ -10,7 +10,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./sentiment-demo
+    working-directory: /sentiment-demo
 
 jobs:
   build-deploy:
@@ -25,4 +25,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           aws-region: us-east-1
       - run: sam build --use-container
-      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name sam-sentiment-tohu008 --s3-bucket lambda-deployments-gb --capabilities CAPABILITY_IAM --region us-east-1
+      - run: sam deploy --no-confirm-changeset --no-fail-on-empty-changeset --stack-name tohu008 --s3-bucket aws-sam-cli-managed-default-samclisourcebucket-pmwwgbzgw6qt --capabilities CAPABILITY_IAM --region us-east-1
