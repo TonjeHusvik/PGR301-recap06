@@ -2,9 +2,9 @@ version = 0.1
 [default]
 [default.deploy]
 [default.deploy.parameters]
-stack_name = "sam-sentiment-tohu008"
+stack_name = "tohu008"
 s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-pmwwgbzgw6qt"
-s3_prefix = "sam-sentiment-tohu008"
+s3_prefix = "tohu008"
 region = "eu-west-1"
 confirm_changeset = true
 capabilities = "CAPABILITY_IAM"
