@@ -10,7 +10,7 @@ on:
 
 defaults:
   run:
-    working-directory: /sentiment-demo
+    working-directory: ./sentiment-demo
 
 jobs:
   build-deploy:
